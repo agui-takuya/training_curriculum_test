@@ -15,7 +15,6 @@ class CalendarsController < ApplicationController
   def name
     @name = user_name
   end
-
   private
 
   def plan_params
